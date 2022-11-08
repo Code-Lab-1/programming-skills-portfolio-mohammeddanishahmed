@@ -15,9 +15,10 @@ Assign a message to a variable, and print that message.
 Then change the value of the variable to a new message, and print the new
 message.
 
-&nbsp;
-&nbsp;
-&nbsp;
+msg= "i love doing python program
+print(msg)
+msg="python means foucs"
+
 ## Exercise 2: Variables :ballot_box_with_check:
 
 Find a quote from a famous person you admire. Print the quote and the name of its author. 
@@ -26,10 +27,9 @@ Your output should look something like the following, including the quotation ma
 
 Albert Einstein once said, “A person who never made a mistake never tried anything new.
 
+print("alama iqbal once said,The ultimate aim of the ego is not to see something, but to be something")
+print("The ultimate aim of the ego is not to see something, but to be something.")
 
-&nbsp;
-&nbsp;
-&nbsp;
 ## Exercise 3: Stripping Names :ballot_box_with_check:
 
 Tidy up the code to make it easier to understand
@@ -40,17 +40,17 @@ Print the name once, so the whitespace around the name is displayed.
 
 Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
+full_name2="mohammed danish ahmed"
+print(full_name2)
+print("whitespace stripping:/n/t"+full_name2.rsttrip())
 
-&nbsp;
-&nbsp;
-&nbsp;
+
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
 
-&nbsp;
-&nbsp;
-&nbsp;
+fav_num=18
+msg="my favoite is"+str(fav_num)+"."
 
 ## Exercise 5: USB Shopper :ballot_box_with_check:
 
