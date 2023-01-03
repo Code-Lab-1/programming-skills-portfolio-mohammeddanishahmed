@@ -5,7 +5,7 @@ Exercises with a tick mark :ballot_box_with_check: represent exercises that must
 Once you have completed your solution you should make sure you commit and push your solutions to your remote repository on GitHub. You can commit and push as many changes to your solutions as you wish, only those pushed before the chapter deadlines will be marked for the Programming Skills Portfolio.  
 
 
-&nbsp;
+&nbs
 
 ## Exercise 1: Print Strings :ballot_box_with_check:
 
@@ -18,35 +18,54 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
-&nbsp;
-&nbsp;
-&nbsp;
+
+print("Twinkle, twinkle, little star, \n\tHow I wonder what you are! \n\t\tUp above the world so high, \n\t\tLike a diamond in the sky. \nTwinkle, twinkle, little star, \n\tHow I wonder what you are")  
+
+
+
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
  Write a Python program to get the Python version you are using.
 
+import sys
+  
+  
+print("User Current Version:-", sys.version)
 
-&nbsp;
-&nbsp;
-&nbsp;
 ## Exercise 3: Print date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
 
-&nbsp;
-&nbsp;
-&nbsp;
+from datetime import datetime
+
+currentTimeDate = datetime.now()
+print(currentTimeDate)
+
+
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
+
 Write three strings in different variables and print the output as one string.
-&nbsp;
-&nbsp;
-&nbsp;
+
+<?php
+  
+$intArray = array(10, 20, 30);
+  
+echo"First Element: $intArray[0]\n";
+echo"Second Element: $intArray[1]\n";
+echo"Third Element: $intArray[2]\n";
+      
+?>
+
 
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
 Write a Python program which accepts the radius of a circle from the user and compute the area.
 
-&nbsp;
-&nbsp;
-&nbsp;
+def findArea(r):
+    PI = 3.142
+    return PI * (r*r);
+  
+# Driver method
+print("Area is %.6f"% findArea(5));
+
 
