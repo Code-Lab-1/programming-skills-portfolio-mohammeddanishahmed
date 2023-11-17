@@ -1,0 +1,2 @@
+item=[oman chips 1 dhs ,orange juice 3 dhs, cholate break 2 dhs , cholate biscuit 5 dhs ,chewgum 7 dhs ]
+print [item]
